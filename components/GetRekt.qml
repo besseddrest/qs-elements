@@ -6,8 +6,11 @@ import QtQuick.Shapes
 Shape {
     id: root
 
+    property string fontFamily: "Rajdhani"
+
     ShapePath {
-        strokeColor: "goldenrod"
+        fillColor: "#500E0E17"
+        strokeColor: "#4DFF3B45"
         strokeWidth: 3
         startX: 0
         startY: 0
@@ -17,6 +20,7 @@ Shape {
         }
         PathLine {
             x: root.width
+
             y: root.height
         }
         PathLine {
@@ -27,5 +31,19 @@ Shape {
             x: 0
             y: 0
         }
+    }
+
+    Label {
+        anchors.left: parent.left
+        anchors.right: parent.right
+        anchors.top: parent.top
+        anchors.verticalCenter: parent.verticalCenter
+        anchors.topMargin: 8
+        anchors.leftMargin: 15
+        fontFamily: root.fontFamily
+        text: "Basic Rectangle"
+        color: "#FF3B45"
+        font.pixelSize: 22
+        font.capitalization: Font.AllUppercase
     }
 }
