@@ -8,8 +8,8 @@ Shape {
 
     property string fontFamily: "Rajdhani"
 
+    // main
     ShapePath {
-        id: mainBox
         fillColor: "#500E0E17"
         strokeColor: "#4DFF3B45"
         strokeWidth: 3
@@ -40,7 +40,7 @@ Shape {
 
     ShapePath {
         fillColor: "#4DFF3B45"
-        strokeColor: "#4DFF3B45"
+        strokeColor: "transparent"
         startX: root.width
         startY: root.height - 20
 

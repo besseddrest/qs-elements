@@ -55,6 +55,10 @@ Scope {
                     Layout.preferredWidth: 500
                     Layout.preferredHeight: 160
                 }
+                Tiered {
+                    Layout.preferredWidth: 500
+                    Layout.preferredHeight: 160
+                }
             }
         }
     }
