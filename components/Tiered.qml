@@ -11,9 +11,9 @@ Shape {
 
     // tiered: color coded, split bar
     ShapePath {
-        fillColor: "#4DFF3B45"
-        strokeColor: "transparent"
-        strokeWidth: 1
+        fillColor: "#FF3B45"
+        strokeColor: "#FF3B45"
+        strokeWidth: 2
         startX: 0
         startY: 0
         PathLine {
@@ -35,9 +35,9 @@ Shape {
     }
     // main
     ShapePath {
-        fillColor: "#500E0E17"
-        strokeColor: "#4DFF3B45"
-        strokeWidth: 3
+        fillColor: "#0E0E17"
+        strokeColor: "#FF3B45"
+        strokeWidth: 2
         startX: root.tierOffset + 10
         startY: 0
         PathLine {
@@ -64,8 +64,9 @@ Shape {
     }
 
     ShapePath {
-        fillColor: "#4DFF3B45"
-        strokeColor: "transparent"
+        fillColor: "#FF3B45"
+        strokeColor: "#FF3B45"
+        strokeWidth: 2
         startX: root.width
         startY: root.height - 20
 
